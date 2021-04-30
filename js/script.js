@@ -9,3 +9,8 @@ console.log(cognomiLista);
 cognomiLista.sort();
 console.log(cognomiLista);
 //4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova.
+var numerazione = 0;
+for (i = 0; i < cognomiLista.lenght; i++) {
+    numerazione ++;
+    console.log(numerazione + " " + cognomiLista(i));
+};
