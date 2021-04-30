@@ -6,6 +6,6 @@ var cognomiLista = ["Bianchi", "Rossi", "Verdi", "Gialli", "Neri"];
 cognomiLista.push(cognomeUtente);
 console.log(cognomiLista);
 //3. stampa la lista ordinata alfabeticamente.
-
-
+cognomiLista.sort();
+console.log(cognomiLista);
 //4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova.
